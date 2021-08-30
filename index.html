@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--TIPOS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400&family=Oswald:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--FIN TIPOS-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/indexCss.css" />
+    <title>Farmacia Alto Patagonia</title>
+    <!--BS-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+    <!--FIN BS-->
+  </head>
+  <!--BODY-->
+  <body class="vh-100 body-content">
+  <!--HEADER/NAV-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"
+          ><img
+            src="images/FAPlogohorizontal.png"
+            alt="Logotipo FAP Farmacia Alto Patagonia"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="dondeEncontrarnos.html"
+                >Donde Encontrarnos</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nuestraHistoria.html"
+                >Nuestra Historia</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="servicios.html">Servicios</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder=""
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Buscar
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--FIN HEADER/NAV-->
+
+    <!--INICIO Carousel-->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../images/imghome1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>+30 años de trayectoria</h5>
+            <p>Llevamos mas de tres decadas acompañandote a vos y a tu familia</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../images/imghome2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Los mejores profesionales</h5>
+            <p>Contamos con profesionales para resolver todas tus dudas y solucionar tus inquietudes</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../images/imghome3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Primeras marcas</h5>
+            <p>Trabajamos con los mejores laboratorios del mundo para darte lo que te mereces</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!--FIN Carousel-->
+        <!--INICIO MAIN-->
+  <main class="container">
+    <!--INICIO CARDS HOME-->
+    <div class="row p-5">
+      <h2 class="col-sm-12 col-md-12 col-lg-12 pb-5" style="text-align: center;">Nos asociamos con las mejores marcas</h2>
+      <!--CARD 1--><div class="card col-sm-12 col-md-4 col-lg-4">
+        <img class="card-img-top" src="images/card1.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Pfizer</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <!--CARD 2--><div class="card col-sm-12 col-md-4 col-lg-4">
+        <img class="card-img-top" src="images/card2.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">GSK</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <!--CARD 3--><div class="card col-sm-12 col-md-4 col-lg-4">
+        <img class="card-img-top" src="images/card3.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Bayer</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+    <!--FIN CARDS HOME-->
+      <!--INICIO HISTORIA HOME-->
+      <section class="d-flex align-items-center">
+          <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4">
+<img src="images/ella.jpg" class="img-fluid rounded mx-auto d-block" style="max-width: 100%; height: auto;" alt="">
+            </div>
+            <div class="col-sm-12 col-md-8 col-lg-8">
+              <div>
+                <h2 class="col-sm-12 col-md-12 col-lg-12" style="text-align: center;">Nuestra historia</h2>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates perspiciatis illo velit porro eligendi laudantium, quo aspernatur at iusto, laboriosam eaque explicabo voluptatem ipsam nisi quod autem nulla, est mollitia libero incidunt voluptas excepturi voluptatibus id! Ipsa est optio aspernatur deserunt modi iusto saepe incidunt excepturi. Nostrum, minus dolores. Tenetur ullam maxime debitis est. Inventore omnis nam consequuntur iste nisi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque velit possimus, eaque ut esse illo magni porro sed. Cumque laboriosam quae accusamus. Cumque sit hic deserunt maxime ratione beatae eum expedita dolorum distinctio, aspernatur doloribus tenetur autem accusantium adipisci sapiente!</p>
+              <div class="text-center"><button type="button" class="btn btn-secondary btn-md "><h6>Conoce nuestra historia</h6></button></div>
+            </div>
+          </div>
+      </section>
+      <!--FIN HISTORIA HOME-->
+    </main>
+    <!--FIN MAIN-->
+    <!--INICION ENCONTRARNOS-->
+    <section class="encontrarnoshome pt-5">
+      <div class="container">
+        <h2 class="main__encontarnoshome__titulo">Donde Encontrarnos</h2>
+        <p>Sarmiento 4114, 8000 Bahía Blanca, Provincia de Buenos Aires</p>
+      </div>
+        <!--google maps-->
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4113.0321612762455!2d-62.23551427744367!3d-38.68566671233644!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x950c93af15c73b81!2sFARMACIA%20Alto%20Patagonia!5e0!3m2!1sen!2sar!4v1625667753503!5m2!1sen!2sar"
+          width="100%"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+    </section>
+    <!--FIN ENCONTRARNOS-->
+  <!--INICIO FOOTER-->
+    <footer class="footer">
+      <div class="row my-5 justify-content-center py-5">
+        <div class="col-11">
+            <div class="row ">
+                <div class="col-xl-8 col-md-4 col-sm-4 col-12 my-auto mx-auto a">
+                    <h3 class="mb-md-0 mb-5 bold-text">Alto Patagonia</h3>
+                </div>
+                <div class="col-xl-2 col-md-4 col-sm-4 col-12">
+                    <h6 class="mb-3 mb-lg-4 bold-text "><b>MENU</b></h6>
+                    <ul class="list-unstyled">
+                        <a href="index.html"><li>Home</li></a>
+                        <a href="contacto.html"><li>Contacto</li></a>
+                        <a href="dondeEncontrarnos.html"><li>Donde encontrarnos</li></a>
+                        <a href="nuestraHistoria.html"><li>Nuestra historia</li></a>
+                        <a href="servicios.html"><li>Servicios</li></a>
+                    </ul>
+                </div>             <div class="col-xl-2 col-md-4 col-sm-4 col-12">
+                    <h6 class="mb-3 mb-lg-4 bold-text mt-sm-0 mt-5"><b>DIRECCION</b></h6>
+                    <p class="mb-1">SARMIENTO 4114, BAHIA BLANCA</p>
+                    <p>WALMART</p>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-xl-8 col-md-4 col-sm-4 col-auto my-md-0 mt-5 order-sm-1 order-3 align-self-end">
+                    </span> FAP All Rights Reserved.</small>
+                </div>
+                <div class="col-xl-2 col-md-4 col-sm-4 col-auto order-1 align-self-end ">
+                    <h6 class="mt-55 mt-2 bold-text"><b>TELEFONO</b></h6><small> <span><i class="fa fa-envelope" aria-hidden="true"></i></span> 291 4161 838</small>
+                </div>
+                <div class="col-xl-2 col-md-4 col-sm-4 col-auto order-2 align-self-end mt-3 ">
+                    <h6 class="bold-text"><b>CORREO</b></h6><small><span><i class="fa fa-envelope" aria-hidden="true"></i></span> contacto@faltopatagonia.com</small>
+                </div>
+            </div>
+        </div>
+    </div>
+    </footer>
+  <!--FIN FOOTER-->
+    </body>
+    </div>
+</html>
