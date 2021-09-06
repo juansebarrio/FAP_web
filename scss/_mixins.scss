@@ -1,0 +1,16 @@
+$root-size: 4px;
+$default-width: 1400px;
+
+.testclass {
+  font-size: 50 * $root-size;
+}
+
+@if $root-size == 4px {
+  .testclass {
+    color: red;
+  }
+} @else if $root-size == 6px {
+  .testclass {
+    color: blue;
+  }
+}

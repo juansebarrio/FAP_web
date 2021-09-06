@@ -1,5 +1,7 @@
 $fap-red: #8a2332;
 $fap-blue: #86d1e6;
+$fap-lightblue: #d7edf3;
+$fap-ligtred: #ebbac1;
 
 * {
   box-sizing: border-box;
@@ -8,7 +10,7 @@ $fap-blue: #86d1e6;
 }
 
 body {
-  width: 1440px;
+  max-width: 1440px;
   margin: auto;
   background-color: #fff;
 }

@@ -4,6 +4,7 @@
   padding: 0; }
 
 body {
+  max-width: 1440px;
   margin: auto;
   background-color: #fff; }
 
@@ -48,6 +49,12 @@ h3 {
 
 .rights {
   font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))); }
+
+.testclass {
+  font-size: 200px; }
+
+.testclass {
+  color: red; }
 
 .cardsservicios .card {
   margin: 2rem; }
