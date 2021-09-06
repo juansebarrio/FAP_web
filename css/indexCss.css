@@ -51,10 +51,52 @@ h3 {
   font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))); }
 
 .testclass {
-  font-size: 200px; }
-
-.testclass {
   color: red; }
+
+.mt-1 {
+  margin-top: 1rem; }
+
+.mt-2 {
+  margin-top: 2rem; }
+
+.mt-3 {
+  margin-top: 3rem; }
+
+.mt-4 {
+  margin-top: 4rem; }
+
+.mt-5 {
+  margin-top: 5rem; }
+
+.mt-6 {
+  margin-top: 6rem; }
+
+.mt-7 {
+  margin-top: 7rem; }
+
+.mt-8 {
+  margin-top: 8rem; }
+
+.mt-9 {
+  margin-top: 9rem; }
+
+.mt-10 {
+  margin-top: 10rem; }
+
+.mt-11 {
+  margin-top: 11rem; }
+
+.mt-12 {
+  margin-top: 12rem; }
+
+.maria {
+  font-size: 5px; }
+
+.valen {
+  font-size: 5px; }
+
+.zulu {
+  font-size: 5px; }
 
 .cardsservicios .card {
   margin: 2rem; }

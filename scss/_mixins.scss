@@ -1,9 +1,16 @@
 $root-size: 4px;
 $default-width: 1400px;
+$names: maria, valen, zulu;
+// $map1: {
+//   maria: gomez;
+//   valen: pallotti;
+//   zulu: gimenez;
+// }
+// .testclass {
+//   font-size: 50 * $root-size;
+// }
 
-.testclass {
-  font-size: 50 * $root-size;
-}
+// condicionales
 
 @if $root-size == 4px {
   .testclass {
@@ -13,4 +20,29 @@ $default-width: 1400px;
   .testclass {
     color: blue;
   }
+} @else {
+  .testclass {
+    color: orange;
+  }
 }
+
+// bucles
+@for $i from 1 through 12 {
+  .mt-#{$i} {
+    margin-top: $i * 1rem;
+  }
+}
+
+// each
+@each $name in $names {
+  .#{$name} {
+    font-size: 5px;
+  }
+}
+
+// // maps
+// @each $nombre, $apellido in $map1 {
+//   .#{$nombre} {
+//     content: "#{$apellido}";
+//   }
+// }
